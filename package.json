@@ -1,30 +1,21 @@
 {
-  "name": "passport",
+  "name": "express-session-authenticator-starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A tutorial on session based user authentication using Passport JS",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LydosSky/node-passport.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/LydosSky/node-passport/issues"
-  },
-  "homepage": "https://github.com/LydosSky/node-passport#readme",
-  "description": "",
   "dependencies": {
-    "connect-mongo": "^5.1.0",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "express-session": "^1.18.1",
-    "mongoose": "^8.9.5",
-    "passport": "^0.7.0",
+    "connect-mongo": "^3.1.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.12",
+    "passport": "^0.4.0",
     "passport-local": "^1.0.0"
   }
 }
